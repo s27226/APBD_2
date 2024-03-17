@@ -8,9 +8,9 @@
     private static double CalculateAverage(int[] arr)
     {
         double avg = 0;
-        foreach(int number in arr)
+        foreach(int e in arr)
         {
-            avg += number;
+            avg += e;
         }
         return avg/arr.Length;
     }
