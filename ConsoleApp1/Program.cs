@@ -9,4 +9,9 @@
     {
         return arr.Average();
     }
+
+    private static int GetMax(int[] arr)
+    {
+        return arr.Max();
+    }
 }
